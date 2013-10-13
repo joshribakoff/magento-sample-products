@@ -1,7 +1,7 @@
 magento-sample-products
 =======================
 
-Creates X number of products "product 1", "product 2", etc.. for the SKU/name for Magento testing purposes.
+I had a need to create 100s or even 1,000s of Magento products for debugging purposes. This tool creates X number of products "product 1", "product 2", etc.. for the SKU/name for Magento testing purposes. Actually it creates a CSV full of sample products for importing into Magento.
 
 Usage
 =====
