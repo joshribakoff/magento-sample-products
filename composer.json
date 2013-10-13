@@ -1,6 +1,7 @@
 {
     "name": "joshribakoff/magento-sample-products",
     "require": {
-        "joshribakoff/php-csv-utils":"*"
+        "joshribakoff/php-csv-utils":"*",
+        "corneltek/getoptionkit": "~1.2"
     }
 }
