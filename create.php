@@ -18,7 +18,9 @@ $seedFile = 'seed.csv';
 $reader = new Csv_Reader($seedFile, new Csv_Dialect());
 $headerRow = $reader->getAssociativeRow();
 $seedRow = $reader->getAssociativeRow();
-$writer = new Csv_Writer(STDOUT);
+$writer = new Csv_Writer(STDOUT, new Csv_Dialect(array(
+    'quoting' => Csv_Dialect::QUOTE_ALL
+)));
 $writer->writeRow($headerRow);
 for($i=1; $i<=$number; $i++) {
     $productRow = array_merge($seedRow, array(
