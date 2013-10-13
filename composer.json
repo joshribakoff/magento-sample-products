@@ -1,0 +1,6 @@
+{
+    "name": "joshribakoff/magento-sample-products",
+    "require": {
+        "joshribakoff/php-csv-utils":"*"
+    }
+}
